@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Curso en Platzi</title>
+  </head>
+  <body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en marte o jupiter</p>
+
+  <script type="text/javascript">
+  var usuario = prompt("¿Cúal es tu peso?");
+  var tuPeso = parseInt(usuario);
+  var gTierra = 9.8;
+  var gMarte = 3.8;
+  var gJupiter = 24.8;
+  var pesoFinal;
+  pesoFinal = tuPeso * gJupiter /gTierra;
+  pesoFinal = parseInt(pesoFinal);
+  document.write("Tu peso en marte es: <strong>" + pesoFinal + " Kilos</strong>");
+  </script>
+
+  </body>
+</html>
