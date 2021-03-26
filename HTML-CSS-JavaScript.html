@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <title>HTML, CSS y JavaScript</title>
+  </head>
+
+  <body>
+
+    <header>
+      <ul class="menu_barra">
+        <li class="titulos_barra"><a href="www.google.com">Inicio</a></li>
+        <li><a href="www.google.com">Contacto</a></li>
+        <li><a href="www.google.com">Acerca de</a></li>
+      </ul>
+    </header>
+
+      <div class="contenedor_html">
+          <h1 class="titulo_uno">¿Qué es HTML?</h1>
+                <p class="parrafo_uno">HTML significa lenguaje de marcado de hipertexto, y le permite al usuario crear y estructurar secciones, párrafos, encabezados, enlaces y elementos de cita en bloque (blockquotes) para páginas web y aplicaciones.</p>
+                <p class="parrafo_uno">HTML no es un lenguaje de programación, lo que significa que no tiene la capacidad de crear una funcionalidad dinámica. En cambio, hace posible organizar y formatear documentos, de manera similar a Microsoft Word.</p>
+                <p class="parrafo_uno">Cuando trabajamos con HTML, utilizamos estructuras de código simples (etiquetas y atributos) para marcar una página web. Por ejemplo, podemos crear un párrafo colocando el texto encerrado dentro de una etiqueta inicial < p > y de cierre < /p >.</p>
+
+          <h2>La historia de HTML</h2>
+                <p>HTML fue inventado por Tim Berners-Lee, un físico del instituto de investigación CERN en Suiza. Se le ocurrió la idea de un sistema de hipertexto basado en Internet.</p>
+                <p>Hipertexto significa un texto que contiene referencias (links) a otros textos a los que los usuarios pueden acceder de inmediato. Publicó la primera versión de HTML en 1991, que constaba de 18 etiquetas HTML. Desde entonces, cada nueva versión del lenguaje HTML viene con nuevas etiquetas y atributos (modificadores de etiqueta) para el marcado.</p>
+                <p>Según la Referencia de elementos HTML de Mozilla Developer Network, actualmente hay 140 etiquetas HTML, aunque algunas de ellas ya están obsoletas (no son compatibles con los navegadores modernos).</p>
+                <p>Debido a un rápido aumento de la popularidad, HTML ahora se considera un estándar web oficial. Las especificaciones de HTML son mantenidas y desarrolladas por el World Wide Web Consortium (W3C). Puedes consultar el último estado del lenguaje en cualquier momento en el sitio web de W3C.</p>
+                <p>La actualización más importante del lenguaje fue la introducción de HTML5 en el 2014. Se agregaron varias etiquetas semánticas nuevas al marcado, que revelan el significado de su propio contenido, como < article >, < header > y < footer >.</p>
+
+          <h2>¿Cómo funciona HTML?</h2>
+                <p>Los documentos HTML son archivos que terminan con una extensión .html o .htm. Puedes verlos usando cualquier navegador web (como Google Chrome, Safari o Mozilla Firefox). El navegador lee el archivo HTML y muestra su contenido para que los usuarios de Internet puedan verlo.</p>
+                <p>Por lo general, el sitio web promedio incluye varias páginas HTML diferentes. Por ejemplo: las páginas de inicio, las páginas de acerca de y las páginas de contacto, todas tendrán documentos HTML separados.</p>
+                <p>Cada página HTML consta de un conjunto de etiquetas (también denominadas elementos), a las que te puedes referir como los componentes básicos de las páginas web. Crean una jerarquía que estructura el contenido en secciones, párrafos, encabezados y otros bloques de contenido.</p>
+                <p>La mayoría de los elementos HTML tienen una apertura y un cierre que utilizan la sintaxis < etiqueta >  < /etiqueta >.</p>
+
+          <h2>Resumen de las etiquetas HTML más utilizados</h2>
+                <p>Las etiquetas HTML tienen dos tipos principales: de bloque y en línea.</p>
+                <ul>
+                  <li>Los elementos de nivel de bloque ocupan todo el espacio disponible y siempre comienzan una nueva línea en el documento. Los encabezados y párrafos son un gran ejemplo de etiquetas de bloque.</li>
+                  <br>
+                  <li>Los elementos en línea solo ocupan el espacio que necesitan y no comienzan una nueva línea en la página. Por lo general, sirven para dar formato a los contenidos internos de los elementos a nivel de bloque. Los enlaces y las cadenas resaltadas son buenos ejemplos de etiquetas en línea.</li>
+                </ul>
+
+          <h2>Evolución de HTML. ¿Qué diferencia hay entre HTML y HTML5</h2>
+                <p>Desde sus inicios, HTML ha pasado por una evolución increíble. W3C publica constantemente nuevas versiones y actualizaciones, mientras que los hitos históricos también obtienen nombres particulares.</p>
+                <p>HTML4 (hoy en día comúnmente denominado «HTML») fue publicado en 1999, mientras que la última versión importante se publicó en 2014. Con el nombre de HTML5, la actualización ha introducido muchas características nuevas en el lenguaje.</p>
+                <p>Una de las características más esperadas de HTML5 es el soporte nativo para la incorporación de audio y video. En lugar de usar Flash Player, podemos simplemente incrustar videos y archivos de audio en nuestras páginas web utilizando las nuevas etiquetas < audio > < /audio > y < video > < /video >. También incluye soporte incorporado para gráficos vectoriales escalables (SVG) y MathML para fórmulas matemáticas y científicas.</p>
+                <p>HTML5 introdujo algunas mejoras semánticas también. Las nuevas etiquetas semánticas le informan a los navegadores sobre el significado del contenido, lo cual beneficia tanto a los lectores como a los motores de búsqueda.</p>
+                <p>Las etiquetas semánticas más populares son < article > < /article >, < section > < /section >, < aside > < /aside >, < header > < /header > y < footer > </ footer >. Para encontrar más diferencias únicas, considera la posibilidad de consultar nuestra comparación detallada de HTML y HTML5.</p>
+
+          <h2>Pros y contras de HTML</h2>
+                <p>Como la mayoría de las cosas, HTML viene con un puñado de ventajas y desventajas.</p>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                  <li>Un lenguaje ampliamente utilizado con muchos recursos y una gran comunidad.</li>
+                  <li>Se ejecuta de forma nativa en todos los navegadores web.</li>
+                  <li>Viene con una curva de aprendizaje plana.</li>
+                  <li>Es de código abierto y completamente gratis.</li>
+                  <li>Marcado limpio y consistente.</li>
+                </ul>
+                <p><strong>Contras</strong></p>
+                <ul>
+                  <li>Se utiliza principalmente para páginas web estáticas. Para obtener funcionalidad dinámica, es posible que necesites usar JavaScript o un lenguaje de backend como PHP.</li>
+                  <li>No le permite al usuario implementar la lógica. Como resultado, todas las páginas web deben crearse por separado, incluso si utilizan los mismos elementos, por ejemplo, encabezados y pies de página.</li>
+                  <li>Algunos navegadores adoptan las nuevas características lentamente.</li>
+                  <li>El comportamiento del navegador a veces es difícil de predecir (por ejemplo, los navegadores más antiguos no siempre muestran las etiquetas más recientes).</li>
+                </ul>
+
+          <h2>Entonces... ¿Qué es HTML?</h2>
+                <p>HTML es el lenguaje de marcado principal de la web. Se ejecuta de forma nativa en todos los navegadores y es mantenido por el World Wide Web Consortium.</p>
+                <p>Puedes usarlo para crear la estructura de contenido de sitios web y aplicaciones web. Es el nivel más bajo de tecnologías de frontend, que sirve como base para el estilo que se puede agregar con CSS y la funcionalidad que se puede implementar mediante JavaScript.</p>
+
+      </div>
+
+      <div class="contenedor_css">
+        <h1 class="titulo_dos">¿Qué es CSS?</h1>
+          <p class="parrafo_dos"> <strong>CSS</strong> (en inglés Cascading Style Sheets) es la que se denomina lenguaje de hojas estilos cascada y se usa para utilixar elementos escritos en un lenguaje de marcado como <a href="#">HTML</a>. CSS separa el contenido de la presentación visula del sitio.</p>
+          <p class="parrafo_dos">CSS fue desarrollado por W3C (World Wide Web Consortium) en 1996 por una razón muy sencilla. HTML no fue diseñado para tener etiquetas que ayuden a formatear la página. Está hecho solo para escribir el marcado para el sitio.</p>
+          <h2>Ventajas de CSS</h2>
+              <p>La diferencia entre un sitio web que implementa CSS y uno que no, es enorme y definitivamente se nota.</p>
+              <p>Quizás hayas visto algún sitio web que no se puede cargar por completo y tiene un fondo blanco con la mayor parte del texto en azul y negro. Eso significa que la parte CSS del sitio no se cargó correctamente o no existe.</p>
+              <p>Así es como se ve un sitio con solo HTML, y creo que estarás de acuerdo conmigo en que no luce muy bien.</p>
+              <p>Antes de CSS, todo el estilo debía incluirse en el marcado HTML. Esto significa que había que describir por separado todos los fondos, los colores de fuente, las alineaciones, etc.</p>
+              <p>CSS permite estilizar todo en un archivo diferente, creando el estilo allí y después integrando el archivo CSS sobre el marcado HTML. Esto hace que el marcado HTML sea mucho más limpio y fácil de mantener.</p>
+              <p>En resumen, con CSS no tienes que describir repetidamente cómo se ven los elementos individuales. Esto ahorra tiempo, hace el código más corto y menos propenso a errores.</p>
+              <p>CSS te permite tener múltiples estilos en una página HTML, y esto hace que las posibilidades de personalización sean casi infinitas. Hoy en día, esto se está volviendo una necesidad más que algo básico.</p>
+
+          <h2>¿Cómo funciona CSS?</h2>
+              <p>CSS utiliza una sintaxis simple basada en el inglés con un conjunto de reglas que la gobiernan. Como mencionamos anteriormente, HTML no fue hecho con la intención de utilizar elementos de estilo, sino solo para el marcado de la página. Fue creado simplemente para describir el contenido.</p>
+              <p>Pero, ¿cómo le aplicas un estilo al párrafo? La estructura de sintaxis CSS es bastante simple. Cuenta con un selector y un bloque de declaración. Primero seleccionas un elemento y luego declaras lo que quieres hacer con él. Bastante sencillo, ¿verdad?</p>
+              <p>Sin embargo, hay reglas que debes recordar. Las reglas de la estructura son bastante simples, así que no te preocupes.</p>
+              <p>El selector apunta al elemento HTML que deseas estilizar. El bloque de declaración contiene una o más declaraciones separadas por punto y coma.</p>
+              <p>Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos. Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaración están rodeados por llaves.</p>
+
+          <h2>3 estilos de implementación de CSS</h2>
+              <p>Haremos una revisión breve de cada estilo, y para obtener una explicación detallada de cada método, habrá un enlace debajo de la descripción.</p>
+              <p>Empecemos hablando del estilo Interno. Los estilos CSS hechos de esta manera se cargan cada vez que se actualiza un sitio web, lo que puede aumentar el tiempo de carga. Además, no podrás usar el mismo estilo CSS en varias páginas, ya que está contenido en una sola página. Sin embargo, esto también tiene sus beneficios. Tener todo en una página facilita compartir la plantilla para una vista previa.</p>
+              <p>El método Externo podría ser el más conveniente. Todo se hace externamente en un archivo .css. Esto significa que puedes hacer todo el estilizado en un archivo separado y aplicar el CSS a cualquier página que quieras. El estilo Externo también puede mejorar los tiempos de carga.</p>
+              <p>Por último, hablemos del estilo Inline de CSS. Inline trabaja con elementos específicos que tienen la etiqueta "< style >". Cada componente tiene que ser estilizado, por lo que podría no ser la mejor forma, ni la más rápida para manejar CSS. Pero puede ser útil, por ejemplo, si quieres cambiar un solo elemento, tener una vista previa rápida de los cambios o tal vez no tengas acceso a los archivos CSS.</p>
+
+      </div>
+
+      <div class="contenedor_js">
+
+          <h1 class="titulo_tres">¿Qué es JavaScript? Introducción a JS para principiantes</h1>
+              <p class="parrafo_tres"><strong>JavaScript</strong> es uno de los lenguajes de programación más populares del mundo con más de veinte años de historia. También es uno de los tres principales lenguajes para desarrolladores web:</p>
+              <p class="parrafo_tres"></p>
+              <ol>
+                <li>HTML: Te permite agregar contenido a una página web</li>
+                <li>CSS: Especifica el diseño de, el estilo y la alineación de las páginas web.</li>
+                <li>JavaScript: Mejora la forma en que se comportan las páginas web.</li>
+              </ol>
+
+              <p>JavaScript se puede aprender de forma rápida y fácil, y se puede usar para una amplia variedad de propósitos, desde simplemente mejorar la funcionalidad de un sitio web hasta ejecutar juegos y software basado en la web. Mejor aún, hay miles de plantillas y aplicaciones de JavaScript disponibles de forma gratuita gracias a sitios como Github</p>
+
+          <h2>Javascript, pasado y presente</h2>
+              <p>JavaScript fue creado en tan solo diez días por Brandan Eich, un empleado de Netscape, en septiembre de 1995. Inicialmente llamado Mocha, el nombre del lenguaje se cambió a Mona y luego a LiveScript antes de que finalmente fuera conocido como JavaScript. Las versiones iniciales del lenguaje se limitaban exclusivamente a Netscape y solo ofrecían una funcionalidad limitada, pero han seguido creciendo con el tiempo gracias en parte a la comunidad de desarrolladores que continúan trabajando con él.</p>
+              <p>En 1996, JavaScript recibió oficialmente el nombre de ECMAScript, con ECMAScript 2 en 1998 y ECMAScript 3 apareció en 1999. Así evolucionó hasta convertirse en el JavaScript que conocemos hoy en día, que ahora funciona no solo en diferentes navegadores sino también en diferentes dispositivos, incluidos teléfonos móviles y computadoras de escritorio.</p>
+              <p>JavaScript ha seguido creciendo desde entonces, hasta el punto en que el 92% de los sitios web usaba JavaScript en el 2016. En solo veinte años pasó de ser un lenguaje de programación primitivo a ser una de las herramientas más importantes en la caja de herramientas de todo desarrollador web. Si usas Internet, probablemente también te hayas encontrado con JavaScript.</p>
+
+          <h2>¿Por qué es tan bueno Javascript</h2>
+              <p>JavaScript tiene una serie de ventajas que lo convierten en una mejor opción que sus competidores, especialmente en ciertos casos de uso. Solo algunos de los beneficios de usar JavaScript incluyen:</p>
+              <ol>
+                <li>No necesitas un compilador porque los navegadores web lo interpretan con HTML;</li>
+                <li>Es más fácil de aprender que otros lenguajes de programación;</li>
+                <li>Los errores son más fáciles de detectar y, por lo tanto, corregir;</li>
+                <li>Se puede asignar a ciertos elementos de la página web o eventos específicos, como clics o apuntar con el ratón (mouseover);</li>
+                <li>JS funciona en múltiples navegadores, plataformas, etc.</li>
+                <li>Puedes usar JavaScript para validar las entradas y reducir la necesidad de verificaciones manuales de datos;</li>
+                <li>Hace que los sitios web sean más interactivos y llama la atención de los visitantes;</li>
+                <li>Es más rápido y ligero que otros lenguajes de programación.</li>
+              </ol>
+
+
+      </div>
+
+  <script src="app.js" charset="utf-8"></script>
+
+  </script>
+  </body>
+</html>
